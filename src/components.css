@@ -16,20 +16,20 @@
 
 @layer components {
     /* Button Styles */
-    .appstat-btn {
+    .btn-primary {
         @apply inline-flex items-center justify-center px-6 py-3 rounded-full font-medium;
         @apply transition-all duration-300 ease-in-out;
         background-color: var(--primary);
         color: var(--background);
     }
     
-    .appstat-btn:hover {
+    .btn-primary:hover {
         background-color: var(--primary-light);
         transform: translateY(-1px);
         @apply shadow-lg;
     }
     
-    .appstat-btn:active {
+    .btn-primary:active {
         transform: translateY(0);   
         @apply shadow-md;
     }
